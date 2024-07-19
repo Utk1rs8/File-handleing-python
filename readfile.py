@@ -1,0 +1,6 @@
+f=open("n1.txt","w+")
+data=("hello\n ","I\n ","am\n ","utkarsh\n ")
+f.writelines(data)
+f.seek(0)
+print(f.readlines())
+f.close()
